@@ -1,0 +1,8 @@
+﻿<html>
+<head>
+
+<script type="text/javascript" src="test.js" charset="UTF-8"></script>
+</head>
+<body onload="f()">
+</body>
+</html>

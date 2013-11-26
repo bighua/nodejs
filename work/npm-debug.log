@@ -1,0 +1,62 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mongodb' ]
+2 info using npm@1.2.30
+3 info using node@v0.10.11
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose read json D:\nodeJS\work\package.json
+6 verbose read json D:\nodeJS\work\package.json
+7 verbose cache add [ 'mongodb', null ]
+8 verbose cache add name=undefined spec="mongodb" args=["mongodb",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'mongodb',
+9 verbose parsed url   path: 'mongodb',
+9 verbose parsed url   href: 'mongodb' }
+10 silly lockFile 7f1c982e-mongodb mongodb
+11 verbose lock mongodb C:\Documents and Settings\zhuxh.NTTDATABJ\Application Data\npm-cache\7f1c982e-mongodb.lock
+12 silly lockFile 7f1c982e-mongodb mongodb
+13 silly lockFile 7f1c982e-mongodb mongodb
+14 verbose addNamed [ 'mongodb', '' ]
+15 verbose addNamed [ null, '' ]
+16 silly lockFile 886df635-mongodb mongodb@
+17 verbose lock mongodb@ C:\Documents and Settings\zhuxh.NTTDATABJ\Application Data\npm-cache\886df635-mongodb.lock
+18 silly addNameRange { name: 'mongodb', range: '', hasData: false }
+19 verbose url raw mongodb
+20 verbose url resolving [ 'https://registry.npmjs.org/', './mongodb' ]
+21 verbose url resolved https://registry.npmjs.org/mongodb
+22 info trying registry request attempt 1 at 16:49:45
+23 http GET https://registry.npmjs.org/mongodb
+24 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+25 info trying registry request attempt 2 at 16:50:20
+26 http GET https://registry.npmjs.org/mongodb
+27 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+28 info trying registry request attempt 3 at 16:51:41
+29 http GET https://registry.npmjs.org/mongodb
+30 silly lockFile 886df635-mongodb mongodb@
+31 silly lockFile 886df635-mongodb mongodb@
+32 error Error: connect ETIMEDOUT
+32 error     at errnoException (net.js:900:11)
+32 error     at Object.afterConnect [as oncomplete] (net.js:891:19)
+33 error If you need help, you may report this log at:
+33 error     <http://github.com/isaacs/npm/issues>
+33 error or email it to:
+33 error     <npm-@googlegroups.com>
+34 error System Windows_NT 5.1.2600
+35 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mongodb"
+36 error cwd D:\nodeJS\work
+37 error node -v v0.10.11
+38 error npm -v 1.2.30
+39 error syscall connect
+40 error code ETIMEDOUT
+41 error errno ETIMEDOUT
+42 verbose exit [ 1, true ]
